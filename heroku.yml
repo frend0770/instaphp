@@ -1,7 +1,7 @@
 build:
-  docker:
-    worker: Dockerfile
+docker:
+worker: Dockerfile
 run:
-  worker:
-    command:
-      - python3 sedthon.py
+worker:
+command:
+build.docker.worker
